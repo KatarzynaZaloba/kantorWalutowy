@@ -2,16 +2,9 @@ html {
     box-sizing: border-box;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: inherit;
 }
 
-.body {
-    color: #333;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-}
-
-.body--grey {
-    background-color: rgb(238, 237, 237);
-}

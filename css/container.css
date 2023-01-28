@@ -1,5 +1,15 @@
 .container {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 2;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 700px;
     padding: 20px;
-    max-width: 850px;
-    margin: auto;
+}
+
+.container__paragraph {
+    margin: 0px;
+    font-style: italic;
+    font-size: 15px;
 }
