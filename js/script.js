@@ -3,11 +3,9 @@ let amountElement = document.querySelector(".js-amount");
 let resultElement = document.querySelector(".js-result");
 let currencyRateElement = document.querySelector(".js-currency");
 
-
 let currencyEUR = 4.7076;
 let currencyUSD = 4.3252;
 let currencyGBP = 5.3505;
-
 
 formElement.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -27,7 +25,5 @@ formElement.addEventListener("submit", (event) => {
             result = amount * currencyGBP;
             break;
     }
-
     resultElement.value = result.toFixed(2)
-
 });
