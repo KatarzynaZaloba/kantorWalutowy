@@ -10,12 +10,12 @@
 }
 
 .form__legend {
-    color: white;
+    color: #ffffff;
     border: none;
     border-radius: 10px;
     font-size: 18px;
     padding: 10px;
-    background-color: teal;
+    background-color: #008080;
 }
 
 .form__labelText {
@@ -28,7 +28,7 @@
 
 .form__field {
     padding: 8px;
-    border: solid 1px #bbb;
+    border: solid 1px #bbbbbb;
     border-radius: 5px;
     max-width: 300px;
     width: 100%;
@@ -36,15 +36,15 @@
 }
 
 .form__field--special {
-    background-color: teal;
-    color: white;
+    background-color: #008080;
+    color: #ffffff;
     font-weight: 20px;
     text-align: left;
 }
 
 
 .form__field:invalid {
-    background-color: rgb(218, 164, 164);
+    background-color: #daa4a4;
 }
 
 
@@ -52,13 +52,13 @@
     width: 100%;
     padding: 10px;
     margin: 2px auto;
-    background-color: teal;
-    color: white;
+    background-color: #008080;
+    color: #ffffff;
     border: none;
     border-radius: 10px;
     font-size: 18px;
 }
 
 .form__button:hover {
-    background-color: rgb(3, 175, 175);
+    background-color: #03afaf;
 }
