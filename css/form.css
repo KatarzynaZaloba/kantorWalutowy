@@ -15,7 +15,7 @@
     border-radius: 10px;
     font-size: 18px;
     padding: 10px;
-    background-color: #008080;
+    background-color: #0d8362;
 }
 
 .form__labelText {
@@ -36,7 +36,7 @@
 }
 
 .form__field--special {
-    background-color: #008080;
+    background-color: #0d8362;
     color: #ffffff;
     font-weight: 20px;
     text-align: left;
@@ -52,7 +52,7 @@
     width: 100%;
     padding: 10px;
     margin: 2px auto;
-    background-color: #008080;
+    background-color: #0d8362;
     color: #ffffff;
     border: none;
     border-radius: 10px;
@@ -60,5 +60,5 @@
 }
 
 .form__button:hover {
-    background-color: #03afaf;
+    background-color: #10ad81
 }
