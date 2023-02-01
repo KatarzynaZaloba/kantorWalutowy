@@ -39,8 +39,4 @@ To create the application I have used:
 - JavaScript
 - ES6+ features
 - GIT
-<<<<<<< HEAD
 - Markdown
-=======
-- Markdown
->>>>>>> 411beda12d83dd323a712957762ed92ac351f7d8
