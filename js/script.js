@@ -14,16 +14,23 @@ formElement.addEventListener("submit", (event) => {
     let currency = currencyRateElement.value;
     let result = resultElement.value;
 
+  {
+
+    const calculateResult = (amount,rate) => {
+        return amount * rate;
+        }
+
     switch (currency) {
         case "EUR":
-            result = amount * currencyEUR;
+            result = calculateResult(amount, currencyEUR);
             break;
         case "USD":
-            result = amount * currencyUSD;
+            result = calculateResult(amount, currencyUSD);
             break;
         case "GBP":
-            result = amount * currencyGBP;
+            calculateResult(amount, currencyGBP);
             break;
     }
     resultElement.value = result.toFixed(2)
 });
+
