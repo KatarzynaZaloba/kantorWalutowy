@@ -1,64 +1,64 @@
-.form__fieldset {
-    background-color: #eeeeeea3;
-    border: solid 1px #9b9a9a;
-    border-radius: 10px;
-    position: relative;
-    box-shadow: 0px 0px 30px 0px #A3A3A3;
-    padding: 20px;
-    margin: auto;
-
-}
-
-.form__legend {
-    color: #ffffff;
-    border: none;
-    border-radius: 10px;
-    font-size: 18px;
-    padding: 10px;
-    background-color: #0d8362;
+.form {
+    display: flex;
+    flex-basis: 400px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .form__labelText {
-    display: inline-block;
-    max-width: 200px;
     width: 100%;
-    font-size: 20px;
+    max-width: 175px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
 
+.form__fieldset {
+    
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: rgb(255 255 255 / 83%);
+}
+
+.form__legend {
+    background-color: hsl(180, 100%, 25%);
+    color: white;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
 }
 
 .form__field {
-    padding: 8px;
-    border: solid 1px #bbbbbb;
-    border-radius: 5px;
-    max-width: 300px;
+    padding: 5px;
     width: 100%;
-    font-size: 18px;
+    max-width: 165px;
+    border-radius: 5px;
 }
 
-.form__field--special {
-    background-color: #0d8362;
-    color: #ffffff;
-    font-weight: 20px;
-    text-align: left;
+.form__paragraph {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis:200px;
 }
-
 
 .form__field:invalid {
-    background-color: #daa4a4;
+    background-color: rgba(250, 173, 173, 0.215);
 }
 
-
 .form__button {
-    width: 100%;
+    background-color: rgb(0, 128, 128);
+    color: white;
     padding: 10px;
-    margin: 2px auto;
-    background-color: #0d8362;
-    color: #ffffff;
-    border: none;
-    border-radius: 10px;
-    font-size: 18px;
+    border-radius: 5px;
 }
 
 .form__button:hover {
-    background-color: #10af8e;
+    background-color: hsl(180, 100%, 30%);
+}
+
+.form__button:active {
+    background-color: hsl(180, 100%, 35%);
 }
