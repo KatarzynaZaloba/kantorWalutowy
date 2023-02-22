@@ -2,15 +2,6 @@ html {
     box-sizing: border-box;
 }
 
-*,
-::after,
-::before {
+*, ::after, ::before {
     box-sizing: inherit;
-}
-
-body {
-    background-image: url("../images/background.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
